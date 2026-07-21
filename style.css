@@ -20,6 +20,37 @@ header {
 header a {
     color: black;
     font-weight: bold;
+    text-decoration: none;
+    font-size: 23px;
+}
 
 
+main img {
+    background-color: blue;
+    box-shadow: 2px 2px 2px blue;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    transform: translate(-50%, -50%);
+}
+
+.tag.boolean {
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+
+}
+
+main .tag.boolean {
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
