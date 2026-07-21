@@ -37,13 +37,6 @@ main img {
     transform: translate(-50%, -50%);
 }
 
-.tag.boolean {
-    font-family: "TikTok Sans", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color: black;
-
-}
 
 main .tag.boolean {
     position: absolute;
@@ -53,4 +46,38 @@ main .tag.boolean {
     display: flex;
     align-items: center;
     gap: 5px;
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 125px;
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    list-style: none;
+    padding-top: 200px;
+    padding-bottom: 1px;
+
+
+}
+
+.didascalie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 125px;
+    font-family: "TikTok Sans", sans-serif;
+    color: black;
+    font-size: 10px;
+    list-style: none;
+
+
 }
