@@ -38,7 +38,7 @@ main img {
 }
 
 
-main .tag.boolean {
+.tag.boolean {
     position: absolute;
     top: 210px;
     left: 50%;
@@ -73,7 +73,9 @@ main .tag.boolean {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 125px;
+    padding: 1px;
+    padding-left: 118px;
+    padding-right: 124px;
     font-family: "TikTok Sans", sans-serif;
     color: black;
     font-size: 10px;
