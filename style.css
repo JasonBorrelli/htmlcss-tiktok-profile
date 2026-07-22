@@ -24,28 +24,22 @@ header a {
     font-size: 23px;
 }
 
+.logo-container {
+    text-align: center;
+}
 
-main .logo {
+.logo {
     background-color: blue;
-    box-shadow: 2px 2px 2px blue;
     width: 74px;
     height: 74px;
     border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 140px;
-    transform: translate(-50%, -50%);
+    border: 4px solid blue;
+
 }
 
 
 .tag.boolean {
-    position: absolute;
-    top: 210px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    margin-top: 10px;
     font-family: "TikTok Sans", sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -57,15 +51,57 @@ main .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 125px;
+    padding: 110px;
     font-family: "TikTok Sans", sans-serif;
     font-weight: bold;
     color: black;
     font-size: 14px;
     list-style: none;
-    padding-top: 200px;
+    padding-top: 20px;
     padding-bottom: 1px;
+    text-align: center;
 
+}
+
+
+
+
+button.follow {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+
+}
+
+
+button.Instagram {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 44px;
+    height: 44px;
+
+}
+
+button.three-dots {
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+    font-family: "TikTok Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 44px;
+    height: 44px;
 
 }
 
@@ -73,7 +109,6 @@ main .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1px;
     padding-left: 118px;
     padding-right: 124px;
     font-family: "TikTok Sans", sans-serif;
@@ -81,8 +116,17 @@ main .logo {
     font-size: 10px;
     list-style: none;
 
+}
+
+.description {
+    font-family: "TikTok Sans";
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 30px;
 
 }
+
 
 .gallery {
     display: grid;
