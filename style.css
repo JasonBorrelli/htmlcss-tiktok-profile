@@ -26,20 +26,21 @@ header a {
 
 .logo-container {
     text-align: center;
+    padding-top: 25px;
 }
 
 .logo {
     background-color: blue;
-    width: 74px;
-    height: 74px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
-    border: 4px solid blue;
+    border: 4px solid darkblue;
 
 }
 
 
 .tag.boolean {
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: "TikTok Sans", sans-serif;
     font-weight: bold;
     font-size: 14px;
@@ -63,7 +64,11 @@ header a {
 
 }
 
+.buttons-container {
+    text-align: center;
+    padding-top: 10px;
 
+}
 
 
 button.follow {
@@ -76,13 +81,12 @@ button.follow {
     padding: 10px;
     width: 150px;
     height: 44px;
-    text-align: center;
 
 }
 
 
 button.Instagram {
-    border: 1px solid black;
+    border: 1px solid #00000024;
     background-color: #fff;
     color: black;
     font-family: "TikTok Sans", sans-serif;
@@ -94,7 +98,7 @@ button.Instagram {
 }
 
 button.three-dots {
-    border: 1px solid black;
+    border: 1px solid #00000024;
     background-color: #fff;
     color: black;
     font-family: "TikTok Sans", sans-serif;
@@ -113,7 +117,7 @@ button.three-dots {
     padding-right: 124px;
     font-family: "TikTok Sans", sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 8px;
     list-style: none;
 
 }
@@ -123,8 +127,17 @@ button.three-dots {
     color: black;
     font-size: 14px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
 
+}
+
+.link {
+    color: black;
+    font-family: "TikTok Sans";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
 }
 
 
